@@ -539,8 +539,11 @@ alias cls='clear'
 alias tmux="TERM=screen-256color-bce tmux"
 alias nshell='nvim term://szh +"setlocal nonu nospell"'
 alias rm=trash
+
 export VTE_VERSION="100"
 export PATH=$PATH:$HOME/local_bin
+export PATH=/path/to/your/maven/bin:$PATH
+export PATH="$PATH:/usr/share/code/bin
 
 editor=$(whereis nvim)
 editor=${editor#*: }
@@ -584,3 +587,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH="$PATH:/usr/share/code/bin"
